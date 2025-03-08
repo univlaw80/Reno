@@ -1,0 +1,38 @@
+# Ignore file lingkungan (environment variables)
+.env
+
+# Ignore folder virtual environment
+venv/
+env/
+.venv/
+
+# Ignore cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore file log
+*.log
+
+# Ignore folder build/dist
+build/
+dist/
+*.egg-info/
+
+# Ignore file sistem operasi
+.DS_Store
+Thumbs.db
+
+# Ignore file IDE (opsional)
+.idea/
+.vscode/
+
+# Ignore file database SQLite (jika digunakan)
+*.sqlite3
+*.db
+
+# Ignore file sementara
+temp/
+tmp/
